@@ -6,8 +6,5 @@ def second_challenge
                grains:    ["rice", "pasta"]
   }
   
-  groceries_values = []
-  groceries_values << groceries.values.join(", ")
-
-  groceries_values
+  groceries.values.flatten
 end
