@@ -7,7 +7,7 @@ def second_challenge
   }
   
   groceries_values = []
-  groceries_values << groceries.values
+  groceries_values << groceries.values.join(", ")
 
   groceries_values
 end
